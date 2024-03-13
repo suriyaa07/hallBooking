@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="caresoul.css" />
+    <script src="caresoul.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <div>
+      <h1><center>IT PARK</center></h1>
+    </div>
+
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="sem_hall.jpg" style="width: 100%; filter: blur(7px)" />
+        <div class="uptown">
+          Seating Capacity :<br /><br />
+          No of systems :<br /><br />
+          Air conditioning :<br /><br />
+          System config :<br /><br />
+          Projector and mic :<br /><br />
+        </div>
+        <div class="btn-avl">
+          <button
+            style="
+              width: 100px;
+              height: 40px;
+              background-color: rgb(60, 239, 123);
+              border-radius: 75%;
+              border: 2px solid rgb(7, 132, 34);
+            "
+          >
+            Available &#x2713;
+          </button>
+        </div>
+        <div class="text" style="font-size: 40px">Seminar Hall 1</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="ccffff.jpg" style="width: 100%; filter: blur(5px)" />
+        <div class="uptown">
+          Seating Capacity :<br /><br />
+          No of systems :<br /><br />
+          Air conditioning :<br /><br />
+          System config :<br /><br />
+          Projector and mic :<br /><br />
+        </div>
+        <div class="btn-notavl">
+          <button
+            style="
+              width: 120px;
+              height: 40px;
+              background-color: rgb(255, 12, 12);
+              border-radius: 75%;
+              border: 2px solid rgb(156, 9, 9);
+            "
+          >
+            Not Available &#10008;
+          </button>
+        </div>
+        <div class="text" style="font-size: 40px">Computer Centre 1</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </body>
+</html>
